@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashish Adhikari</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/224bfcc4ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images.png.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">My Intro</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Aashish</span><br> Adhikari from Nepal</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="coat.png.jpg" class="coat"></div>
+            <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Namaste, I am Aashish Adhikari .I recently graduated from high school and intend to pursue a bachelor's degree in Bsc.IT. I am a passionate web developer and graphics designer based in Kathmandu, Nepal, and also working as a freelancer. Got relevant abilities by taking a number of related courses (from Udemy, YouTube, and other online sources), such as building web applications, front-end web development, graphics designing, User Interface Design, User Experience(UX), basics of programming and worked on a few personal projects too.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Photoshop</span><br>Adobe Photoshop</li>
+                            <li><span>Digital Marketing</span><br>Digital Marketing Fundamentals<br></li>
+                            <li><span>Web developer</span><br>Web site development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>November 22, 2022</span><br>Upskill with Eduonix</li>
+                            <li><span>07/08/2022</span><br>Google</li>
+                            <li><span>September 1,2022</span><br>Udemy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2076</span><br>Horizon G.B.S School</li>
+                            <li><span>2078</span><br>New Horizon College</li>
+                            <li><span>2079</span><br>Presidential Business School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------services-------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Do you want your portfolio website like mine?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <p>Are you interested in Photography?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-film"></i>
+                <h2>Video Editing</h2>
+                <p>If you want your video to be better quality then remember me!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="camera.png.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>lets be friends!</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="rocket.png.jpg">
+            <div class="layer">
+                <h3>Lets go Mars!</h3>
+                <p> Aeronautics!</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+
+</div>
+<a href="#" class="btn">See More</a>
+
+<!----Contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aashishad67@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9846843300</p>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://twitter.com/home"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="aashish.pdf.docx" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aashish. Made by<i class="fa-solid fa-heart"></i> Aashish Adhikari</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tablink of tablinks){
+            tablink.classList.remove("active-tab");
+        }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6BR6jC9WEtvkDP_pFqErzCWwpYSoxagVga3PBHmftKrVnp60U928H8yQaWdz6WpUQWQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
